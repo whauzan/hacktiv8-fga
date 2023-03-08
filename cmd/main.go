@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strconv"
+)
 
 func main() {
 	fmt.Printf("\n\nHello! Wahyu here ^-^ \n\n")
@@ -29,22 +32,25 @@ func main() {
 	fmt.Printf("%t \n\n", j)
 
 	fmt.Println("Menampilkan unicode russia : Я (ya)")
-	fmt.Printf("%+q \n\n", "Я")
+	fmt.Printf("\u042F \n\n")
 
 	fmt.Println("Menampilkan nilai base 10 : 21")
 	fmt.Printf("%d \n\n", 21)
 
 	fmt.Println("Menampilkan nilai base 8 : 25")
-	fmt.Printf("%o \n\n", 25)
+	fmt.Printf("%o \n\n", 21)
+
+	f, _ := strconv.ParseInt("f", 16, 64)
 
 	fmt.Println("Menampilkan nilai base 16 : f")
-	fmt.Printf("%x \n\n", "f")
+	fmt.Printf("%x \n\n", f)
 
 	fmt.Println("Menampilkan nilai base 16 : F")
-	fmt.Printf("%X \n\n", "F")
+	fmt.Printf("%X \n\n", f)
 
 	fmt.Println("Menampilkan unicode karakter Я : U+042F")
-	fmt.Printf("\u042F \n\n")
+	x, _ := strconv.ParseInt("042F", 16, 64)
+	fmt.Printf("%U \n\n", x)
 
 	fmt.Println("Menampilkan float : 123.456000")
 	fmt.Printf("%f \n\n", k)
