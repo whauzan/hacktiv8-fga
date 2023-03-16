@@ -12,12 +12,11 @@ This is repository for Fresh Graduate Academy by [Kominfo](https://www.kominfo.g
 This repository are using:
 
 - [Go](https://go.dev/)
-- [Docker](https://www.docker.com/)
 - [Air](https://github.com/cosmtrek/air)
 
 ## Installation
 
-It requires [Go](https://go.dev/) v1.19 or using [Docker](https://www.docker.com/) to run.
+It requires [Go](https://go.dev/) v1.19 to run.
 
 Install the dependencies.
 
@@ -25,16 +24,8 @@ Install the dependencies.
 go mod tidy
 ```
 
-If you want to run the app using [Docker](https://www.docker.com/), skip the previous step.
-
 ## Running
 ```sh
 cd cmd
-go run main.go
-```
-
-If running with docker
-
-```sh
-docker compose up
+go run main.go {args absen(int)}
 ```
