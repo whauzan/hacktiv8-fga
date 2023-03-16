@@ -3,16 +3,11 @@
 
 This is repository for Fresh Graduate Academy by [Kominfo](https://www.kominfo.go.id/) and [Hacktiv8](https://www.hacktiv8.com/).
 
-## Features
-
-- Hot Reload with [Air](https://github.com/cosmtrek/air) (If run on docker)
-
 ## Tech
 
 This repository are using:
 
 - [Go](https://go.dev/)
-- [Air](https://github.com/cosmtrek/air)
 
 ## Installation
 
