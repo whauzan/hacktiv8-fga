@@ -41,4 +41,7 @@ func main() {
 		fmt.Printf(<-chanCoba)
 		fmt.Printf(<-chanBisa)
 	}
+
+	close(chanCoba)
+	close(chanBisa)
 }
