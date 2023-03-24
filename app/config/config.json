@@ -1,0 +1,13 @@
+{
+  "debug": true,
+  "server": {
+    "address": ":8080"
+  },
+  "database": {
+    "host": "db",
+    "port": "5432",
+    "user": "whauzan",
+    "pass": "whr172845",
+    "name": "crudbook"
+  }
+}
